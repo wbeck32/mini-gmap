@@ -32,6 +32,6 @@ fs.readFile(filename, "binary", function(err, file) {
   response.end();
   });
 });
-}).listen(parseInt(port, 10));
- 
-console.log("Static file server running at\n => http://localhost:" + port + "/\nCTRL + C to shut down.");
+}).listen('8080','104.236.163.105');
+//enter your own IP address here 
+console.log("Static file server running at\n => http://104.236.163.105:8080");
